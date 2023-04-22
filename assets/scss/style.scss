@@ -1,5 +1,65 @@
 @import "default";
+
 body {
   max-width: 1440px;
-  background-color: #1E1E1E;;
+  background-color: #1E1E1E;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+  margin-top: 20px;
+
+  .logo {
+    margin-left: 40px;
+  }
+
+  .btn-header {
+    margin-right: 40px;
+  }
+
+  .nav {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+  }
+
+  li {
+    margin-left: 20px;
+  }
+}
+
+section {
+  margin-bottom: 100px;
+  margin: auto;
+}
+
+.main {
+  width: 45%;
+
+  h1   {
+    margin-bottom: 25px;
+  }
+
+  p {
+    margin: auto;
+    width: 95%;
+    margin-bottom: 25px;
+  }
+}
+.about {
+  width: 50%;
+  p {
+    margin: auto;
+    width: 95%;
+    margin-bottom: 25px;
+}
 }
