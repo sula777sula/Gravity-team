@@ -1,8 +1,9 @@
 @import "default";
 
 body {
+  margin: 0px;
   max-width: 1440px;
-  background-color: #1E1E1E;
+  background-color: #1e1e1e;
 }
 
 .wrapper {
@@ -30,10 +31,16 @@ header {
     display: flex;
     width: 50%;
     justify-content: space-between;
+    align-items: center;
   }
+  a {
+    margin-right: 20px;
+    text-transform: uppercase;
+    transition: 0.4s;
 
-  li {
-    margin-left: 20px;
+    &:hover {
+      color: rgb(113, 144, 239);
+    }
   }
 }
 
@@ -45,7 +52,7 @@ section {
 .main {
   width: 45%;
 
-  h1   {
+  h1 {
     margin-bottom: 25px;
   }
 
@@ -53,6 +60,8 @@ section {
     margin: auto;
     width: 95%;
     margin-bottom: 25px;
+    letter-spacing: 1px;
+    line-height: 25px;
   }
 }
 .about {
@@ -61,5 +70,7 @@ section {
     margin: auto;
     width: 95%;
     margin-bottom: 25px;
-}
+    letter-spacing: 1px;
+    line-height: 25px;
+  }
 }

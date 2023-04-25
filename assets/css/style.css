@@ -39,6 +39,7 @@ h3 {
 }
 
 p {
+  font-size: 18px;
   font-weight: 400;
 }
 
@@ -65,8 +66,9 @@ li {
 }
 
 body {
+  margin: 0px;
   max-width: 1440px;
-  background-color: #1E1E1E;
+  background-color: #1e1e1e;
 }
 
 .wrapper {
@@ -92,9 +94,15 @@ header .nav {
   display: flex;
   width: 50%;
   justify-content: space-between;
+  align-items: center;
 }
-header li {
-  margin-left: 20px;
+header a {
+  margin-right: 20px;
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+header a:hover {
+  color: rgb(113, 144, 239);
 }
 
 section {
@@ -112,6 +120,8 @@ section {
   margin: auto;
   width: 95%;
   margin-bottom: 25px;
+  letter-spacing: 1px;
+  line-height: 25px;
 }
 
 .about {
@@ -121,6 +131,8 @@ section {
   margin: auto;
   width: 95%;
   margin-bottom: 25px;
+  letter-spacing: 1px;
+  line-height: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */
