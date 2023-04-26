@@ -11,7 +11,7 @@ h4 {
 
 p,
 a {
-  color: #E5E5E5;
+  color: #e5e5e5;
 }
 
 h1,
@@ -48,21 +48,6 @@ a {
   cursor: pointer;
 }
 
-li {
-  list-style-type: none;
-  display: inline;
-}
 
-.btn {
-  width: 190px;
-  height: 60px;
-  font-size: 19px;
-  text-transform: uppercase;
-  color: #ffffff;
-  cursor: pointer;
-  background: linear-gradient(135deg, #665DCD 0%, #5FA4E6 44.76%, #D2AB67 100%);
-  border-radius: 2px;
-  border: none;
-}
 
-/*# sourceMappingURL=default.css.map */
+

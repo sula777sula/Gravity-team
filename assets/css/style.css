@@ -11,7 +11,7 @@ h4 {
 
 p,
 a {
-  color: #E5E5E5;
+  color: #e5e5e5;
 }
 
 h1,
@@ -60,7 +60,7 @@ li {
   text-transform: uppercase;
   color: #ffffff;
   cursor: pointer;
-  background: linear-gradient(135deg, #665DCD 0%, #5FA4E6 44.76%, #D2AB67 100%);
+  background: linear-gradient(135deg, #665dcd 0%, #5fa4e6 44.76%, #d2ab67 100%);
   border-radius: 2px;
   border: none;
 }
@@ -90,18 +90,33 @@ header .logo {
 header .btn-header {
   margin-right: 40px;
 }
-header .nav {
-  display: flex;
-  width: 50%;
-  justify-content: space-between;
-  align-items: center;
-}
 header a {
   margin-right: 20px;
   text-transform: uppercase;
   transition: 0.4s;
 }
 header a:hover {
+  color: rgb(113, 144, 239);
+}
+
+nav {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+nav .knopki {
+  margin-right: 20px;
+}
+nav .knopki a {
+  margin: 0;
+}
+nav .knopki svg {
+  cursor: pointer;
+  padding-left: 5px;
+  transition: 0.4s;
+}
+nav .knopki svg:hover {
   color: rgb(113, 144, 239);
 }
 
@@ -133,6 +148,33 @@ section {
   margin-bottom: 25px;
   letter-spacing: 1px;
   line-height: 25px;
+}
+
+.btn {
+  display: inline;
+  width: 190px;
+  height: 60px;
+  font-size: 19px;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+  background: linear-gradient(135deg, #665dcd 0%, #5fa4e6 44.76%, #d2ab67 100%);
+  border-radius: 2px;
+  border: 2px solid #bfe2ff;
+  outline: 1px solid;
+  outline-color: #a2adb8;
+  outline-offset: 0px;
+  text-shadow: none;
+  transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+  box-shadow: inset 0 0 50px #bfe2ff;
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
